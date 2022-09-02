@@ -33,37 +33,10 @@ In [Second notebook](./part2_facial_landmark_detection.ipynb), I trained a cnn m
 <img src="Images/4.png" width="70%">
 <img src="Images/5.png" width="70%">
 
-### third notebook
-In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), I give output of the first model to input of the second model, so I can detect face boundries and facial landmarks together. 🎉
+### Third notebook
+In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), I give output of the first trained model to input of the second trained model, so I can detect face boundries and facial landmarks together. 🎉
 
-<div style="display:flex">
-    <img src="Images/1.png" width="70%">
-    Original Image
-</div>
-<div style="display:flex">
-    <img src="Images/2.png" width="70%">
-    Resized image
-</div>
-<div style="display:flex">
-    <img src="Images/3.png" width="70%">
-    Resized image with estimated boundry box
-</div>
-<div style="display:flex">
-    <img src="Images/4.png" width="70%">
-    Resized faces (resized boundry box parts)
-</div>
-<div style="display:flex">
-    <img src="Images/5.png" width="70%">
-    Resized faces with estimated landmark positions
-</div>
-<div style="display:flex">
-    <img src="Images/6.png" width="70%">
-    Resized image with estimated boundry boxs and landmarks
-</div>
-<div style="display:flex">
-    <img src="Images/7.png" width="70%">
-    Original image with estimated estimated boundry boxs and landmarks
-</div>
+In this notebook you can see all the steps taken.
 
 ## Models
 <div style="display:flex">
