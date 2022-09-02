@@ -18,7 +18,7 @@ In this dataset, you can find annotations.txt which contains the labels includin
     * w and h are the width and height of the bounding box
     * (x1, y1) up to (x68, y68) are the 68 landmark positions in the face
 
-## Notebook details
+## Notebooks details
 ### First notebook
 In [First notebook](./part1_face_boundary_detection.ipynb), I trained a vgg16 model with imagenet weights which has only two trainable layers. This model gets resized images of areas in images that selective search algorithm picked, then classify those resized parts into non-face and face categories. Also in this notebook I trained data with customized fit function. 
 
