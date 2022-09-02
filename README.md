@@ -42,8 +42,10 @@ In this notebook you can see all the steps taken.
 
 The models used in the first notebook and the second one.
 
-<img src="Images/rcnn.png" width="45%" valign='top'>
-<img src="Images/cnn.png" width="45%" valign='top'>
+<p float="center">
+    <img src="Images/rcnn.png" width="42%" valign='top'>
+    <img src="Images/cnn.png" width="42%" valign='top'>
+</p>
 
 ## Refrences
 [R-CNN implementation](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
