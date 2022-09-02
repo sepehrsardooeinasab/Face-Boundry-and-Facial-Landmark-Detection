@@ -20,7 +20,7 @@ In this dataset, you can find annotations.txt which contains the labels includin
 
 ## Notebooks details
 ### First notebook
-In [First notebook](./part1_face_boundary_detection.ipynb), A vgg16 model with imagenet weights and only two trainable layers was trained. This model gets resized images of areas that selective search algorithm picks, then classifies those resized parts into non-face and face categories. Also in this notebook the model was trained with custom fit function. 
+In [First notebook](./part1_face_boundary_detection.ipynb), A vgg16 model with imagenet weights and only two trainable layers was trained. This model gets resized images of areas that selective search algorithm picks, then classifies those resized parts into non-face and face categories. Also in this notebook the model was trained by a custom fit function. 
 
 <p float="center">
     <img src="Images/2.png" width="42%">
