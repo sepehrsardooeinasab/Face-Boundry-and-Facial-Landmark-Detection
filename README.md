@@ -40,13 +40,13 @@ In this notebook you can see all the steps taken.
 
 ## Models
 <div style="display:flex">
-    <div style="flex:1;padding-left:10px;">
-        Model first notebook (boundry box)
-        <img src="Images/rcnn.png" width="300"/>
+    <div style="flex:21">
+        <p>First model (boundry box)</p>
+        <img src="Images/rcnn.png"/>
     </div>
-    <div style="flex:1;padding-left:10px;">
-        Model second notebook (facial landmark)
-        <img src="Images/cnn.png" width="400"/>
+    <div style="flex:20">
+        <p>Second model (facial landmark)</p>
+        <img src="Images/cnn.png"/>
     </div>
 </div>
 
