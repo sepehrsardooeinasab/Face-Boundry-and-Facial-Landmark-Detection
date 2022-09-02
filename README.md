@@ -41,20 +41,20 @@ In this notebook you can see all the steps taken.
 ## Models
 <div style="display:flex">
     <div style="flex:1">
-        <p>First model (boundry box)</p>
+        First model (boundry box)
         <img src="Images/rcnn.png"/>
     </div>
     <div style="flex:1">
-        <p>Second model (facial landmark)</p>
+        Second model (facial landmark)
         <img src="Images/cnn.png"/>
     </div>
 </div>
 
 ## Refrences
-[R-CNN implementation 'article'](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
+[R-CNN implementation [article]](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
 
-[R-CNN implementation 'code'](https://github.com/Hulkido/RCNN)
+[R-CNN implementation [code]](https://github.com/Hulkido/RCNN)
 
-[Facial landmark detection 'code'](https://github.com/LordLean/Facial-Landmark-Detection)
+[Facial landmark detection [code]](https://github.com/LordLean/Facial-Landmark-Detection)
 
-[Custom Fit](https://www.tensorflow.org/guide/keras/customizing_what_happens_in_fit)
+[Custom Fit [article and code]](https://www.tensorflow.org/guide/keras/customizing_what_happens_in_fit)
