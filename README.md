@@ -40,7 +40,8 @@ In this notebook you can see all the steps taken.
 
 ## Models
 
-The models used in the first notebook and the second  one.
+The models used in the first notebook and the second one.
+
 <img src="Images/rcnn.png" width="45%" valign='top'>
 <img src="Images/cnn.png" width="45%" valign='top'>
 
