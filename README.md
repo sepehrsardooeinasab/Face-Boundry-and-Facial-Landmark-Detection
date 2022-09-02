@@ -34,7 +34,7 @@ In [Second notebook](./part2_facial_landmark_detection.ipynb), I trained a cnn m
 <img src="Images/5.png" width="70%">
 
 ### third notebook
-In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), I give output of the first model to input of the second model, so I can detect face boundry and facial landmarks together. 🎉
+In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), I give output of the first model to input of the second model, so I can detect face boundries and facial landmarks together. 🎉
 
 <div style="display:flex">
     <img src="Images/1.png" width="70%">
