@@ -39,15 +39,10 @@ In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), 
 In this notebook you can see all the steps taken.
 
 ## Models
-VGG16 (Used in the first notebook1) and A CNN (Used in the second notebook) structures are shown, respectively
-<div style="display:flex">
-    <div style="flex:1">
-        <img src="Images/rcnn.png"/>
-    </div>
-    <div style="flex:1">
-        <img src="Images/cnn.png"/>
-    </div>
-</div>
+
+The models used in the first notebook and the second  one.
+<img src="Images/rcnn.png" width="45%" valign='top'>
+<img src="Images/cnn.png" width="45%" valign='top'>
 
 ## Refrences
 [R-CNN implementation](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
