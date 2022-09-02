@@ -34,7 +34,7 @@ In [Second notebook](./part2_facial_landmark_detection.ipynb), A cnn model was t
 <img src="Images/5.png" width="70%">
 
 ### Third notebook
-In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), The output of the first trained model were given to the input of the second trained model, so It can detects faces boundries and facial landmarks. 🎉
+In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), The results of the first trained model were given to the input of the second trained model, so It can detects faces boundries and facial landmarks. 🎉
 
 In this notebook you can see all the steps taken.
 
