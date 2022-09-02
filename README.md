@@ -39,22 +39,21 @@ In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), 
 In this notebook you can see all the steps taken.
 
 ## Models
+VGG16 (Used in the first notebook1) and A CNN (Used in the second notebook) structures are shown, respectively
 <div style="display:flex">
     <div style="flex:1">
-        First model (boundry box)
         <img src="Images/rcnn.png"/>
     </div>
     <div style="flex:1">
-        Second model (facial landmark)
         <img src="Images/cnn.png"/>
     </div>
 </div>
 
 ## Refrences
-[R-CNN implementation [article]](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
+[R-CNN implementation](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
 
-[R-CNN implementation [code]](https://github.com/Hulkido/RCNN)
+[R-CNN implementation](https://github.com/Hulkido/RCNN)
 
-[Facial landmark detection [code]](https://github.com/LordLean/Facial-Landmark-Detection)
+[Facial landmark detection](https://github.com/LordLean/Facial-Landmark-Detection)
 
-[Custom Fit [article and code]](https://www.tensorflow.org/guide/keras/customizing_what_happens_in_fit)
+[Custom Fit](https://www.tensorflow.org/guide/keras/customizing_what_happens_in_fit)
