@@ -47,7 +47,7 @@ The models used in the first notebook and the second one.
     <img src="Images/cnn.png" width="42%" valign='top'>
 </p>
 
-## Refrences
+## References
 [R-CNN implementation](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
 
 [R-CNN implementation](https://github.com/Hulkido/RCNN)
