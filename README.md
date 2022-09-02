@@ -19,22 +19,63 @@ In this dataset, you can find annotations.txt which contains the labels includin
     * (x1, y1) up to (x68, y68) are the 68 landmark positions in the face
 
 ## Notebook details
-
+### First notebook
 In [First notebook](./part1_face_boundary_detection.ipynb), I trained a vgg16 model with imagenet weights which has only two trainable layers. This model gets resized images of areas in images that selective search algorithm picked, then classify those resized parts into non-face and face categories. Also in this notebook I trained data with customized fit function. 
 
-You can see the vgg16 structure used in this notebook below
+<p float="center">
+    <img src="Images/2.png" width="42%">
+    <img src="Images/3.png" width="42%">
+</p>
 
-<img src="Images/rcnn.png" width="40%">
+### Second notebook
+In [Second notebook](./part2_facial_landmark_detection.ipynb), I trained a cnn model to estimate landmark positions on faces
 
-[Facial landmark detection](./part2_facial_landmark_detection.ipynb)
+<img src="Images/4.png" width="70%">
+<img src="Images/5.png" width="70%">
 
+### third notebook
+In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), I give output of the first model to input of the second model, so I can detect face boundry and facial landmarks together. 🎉
 
+<div style="display:flex">
+    <img src="Images/1.png" width="70%">
+    Original Image
+</div>
+<div style="display:flex">
+    <img src="Images/2.png" width="70%">
+    Resized image
+</div>
+<div style="display:flex">
+    <img src="Images/3.png" width="70%">
+    Resized image with estimated boundry box
+</div>
+<div style="display:flex">
+    <img src="Images/4.png" width="70%">
+    Resized faces (resized boundry box parts)
+</div>
+<div style="display:flex">
+    <img src="Images/5.png" width="70%">
+    Resized faces with estimated landmark positions
+</div>
+<div style="display:flex">
+    <img src="Images/6.png" width="70%">
+    Resized image with estimated boundry boxs and landmarks
+</div>
+<div style="display:flex">
+    <img src="Images/7.png" width="70%">
+    Original image with estimated estimated boundry boxs and landmarks
+</div>
 
-You can see the cnn structure used in this part below
-
-<img src="Images/rcnn.png" width="40%">
-
-[Face boundry and facial landmark detection](./part3_face_boundary_and_facial_landmark_detection.ipynb)
+## Models
+<div style="display:flex">
+    <div style="flex:1;padding-left:10px;">
+        Model first notebook (boundry box)
+        <img src="Images/rcnn.png" width="300"/>
+    </div>
+    <div style="flex:1;padding-left:10px;">
+        Model second notebook (facial landmark)
+        <img src="Images/cnn.png" width="400"/>
+    </div>
+</div>
 
 ## Refrences
 [R-CNN implementation article](https://towardsdatascience.com/step-by-step-r-cnn-implementation-from-scratch-in-python-e97101ccde55)
