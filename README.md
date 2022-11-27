@@ -1,14 +1,14 @@
 # Face boundry and facial landmark detection
 
-## Goal
+## The goal
 <p float="center">
     <img src="Images/1.png" width="42%">
     <img src="Images/7.png" width="42%">
 </p>
 
-## Data set
+## The data set
 [This data set](https://drive.google.com/file/d/1Jshwoo4KIDdCl_QkaWJ6HtGKC4JKOcU6/view?usp=sharing)
-consists of 4275 images. Some images have multiple faces and some only have a person.
+consists of 4275 images. There are some images with multiple people and some with only one.
 
 In this dataset, you can find annotations.txt which contains the labels including bounding box and landmarks annotations. The format of this text file is as follows (line by line):
 * Path to image
@@ -20,7 +20,7 @@ In this dataset, you can find annotations.txt which contains the labels includin
 
 ## Notebooks details
 ### First notebook
-In [First notebook](./part1_face_boundary_detection.ipynb), A vgg16 model with imagenet weights and only two trainable layers was trained. This model gets resized images of areas that selective search algorithm picks, then classifies those resized parts into non-face and face categories. Also in this notebook the model was trained by a custom fit function. 
+In [First notebook](./part1_face_boundary_detection.ipynb), A VGG16 model with Imagenet weights and only two trainable layers was trained. This model gets resized images of areas that selective search algorithm picks, then classifies those resized parts into non-face and face classes. Also in this notebook the model was trained by a custom fit function. 
 
 <p float="center">
     <img src="Images/2.png" width="42%">
@@ -28,18 +28,22 @@ In [First notebook](./part1_face_boundary_detection.ipynb), A vgg16 model with i
 </p>
 
 ### Second notebook
-In [Second notebook](./part2_facial_landmark_detection.ipynb), A cnn model was trained to estimate landmark positions on faces
+In [Second notebook](./part2_facial_landmark_detection.ipynb), A CNN model was trained to estimate landmark positions on faces.
 
 <img src="Images/4.png" width="70%">
 <img src="Images/5.png" width="70%">
 
 ### Third notebook
-In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), The results of the first trained model were given to the input of the second trained model, so it can detect faces boundries and facial landmarks. 🎉
+In [Third notebook](./part3_face_boundary_and_facial_landmark_detection.ipynb), The results of the first trained model were given to the input of the second trained model, so it can detect faces boundries and facial landmarks.
 
 In this notebook you can see all the steps taken.
 
-## Models
+## Problems
+1. RCNNs are slow. It is better to use YOLO or other alghoritems.
+2. In order to detect facial landmarks the second network needs a perfectly cropped face. Therefore, it is better to implement the first network as it calculates the boundary box loss.
+3. Training 4275 images (which contains multiple faces) with quite large networks like VGG16 needs a lot of computional resourses. A lot more than resources available in free plan of Google collab which I used. 🙃
 
+## The Models
 The models used in the first notebook and the second one.
 
 <p float="center">
